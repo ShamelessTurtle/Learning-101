@@ -1,0 +1,163 @@
+
+/*  basiccss syntax has a selector and a declaration.
+    selector says what the thing is and the declaration say what it does.
+    inside teh declaration we will always have some combo of a property and a value,
+    property (color) on the left then a colon ':' followed by the  value (red) ending in a semicolom ';' */
+p { 
+    color: red;   
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+    background-color: black;
+    border-style: dashed;
+    border-width: 5px;
+    border-bottom-style: double;
+    border-color: yellow;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+h1 {
+    color: #90269E;
+    font-family: "Time New Roman"
+    text-align: right;                /* for some wierd reason this command isnn't being recognized and instead I'm using inline style @ css1.html <h1> */
+    background-color: lightblue;
+    }
+
+
+/* COLORS         There is 3 way to use colors in css.
+                 The first is the above methode of just simply naming the color. - this method is the least accurate.
+                 the best way is hexidecimal values or hex values for short. It starts with a '#'' followed by 6 numbers or 6 letters.
+                 Another wasy to use colors is done with 'rgb' values.
+                 hsla (hue, saturation, lightness, alpha)    alpha has a range from 0.0 -1.0 or just hsl
+                 similarly rgb can become rgba
+                 
+                 */
+                 
+h2{
+    Color: rgb(255,155,098);
+    background-image: url("/Images/201c.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px;
+
+}
+/* BACKGROUNG  
+    You can also put them all in one line like example p1*/
+    
+pre{
+    background-color: #5cf2ae;
+    color: #000000;
+    font: bold 20px cursive;
+    border-style: dashed;
+    border-width: 14px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    
+}
+/* Box model
+                    Margin        
+                    Border
+                    Padding
+                    Content         */
+
+pre2{
+    font-size: 36px;
+    font-family: "Verdana";
+    font-style: bold;
+    
+    letter-spacing: 20px;
+    
+    word-spacing: 50px;
+   
+    text-shadow: 2px 2px red;                   /* you can also add a 3rd property before the color and that would determine the blurriness. It would be expressed in px */
+    text-align: center;
+    text-decoration: underline;
+  
+    
+    color: black;
+    
+}
+                    /* LINKS */
+                    
+a{
+    color: green;                                                                        /* LOVE THE COMBO I JUST MADE WITH THE 3 STATES OF <a> */
+    font-family: "Futura";
+    font-size: 32px;
+    
+    text-decoration: underline;
+    text-decoration-color: darkorange;
+    
+}
+a:hover{
+    color: pink;
+    font-family: "Bodoni";
+    text-decoration: underline;
+    text-decoration-color: darkgreen;
+}
+
+a:active{
+    color: Blue;
+    font-family: "Trajan";
+    text-decoration: underline;
+    text-decoration-color: red;
+    background-color: yellow;
+}
+
+ol {
+    background-color: #d4f442;
+    margin-right: 85%;
+    border-color: #434366;
+    border-width: 3px;
+    border-style: double;
+}
+ol li {
+    background-color: #6ad9ed;
+    margin-right: 30%;
+    padding: 10px;
+    
+}
+
+p2 {
+    border-left: 5px solid red;
+    background-color: lightgrey;
+    font-size: 45px;
+}
+p2:hover {
+    
+    border-left: 5px solid grey;
+    background-color: #dbb4ab;
+    
+}
+p3 { 
+        outline: 10px dotted red;
+    	border: 5px solid blue;
+        outline-offset: -7px;
+        font-size: 72px;
+        font-family: "Futura";
+    }
+    
+/* ID and Class Ex:
+
+p#asd { color: blue;}  
+
+<p id="asd">Id is used to change only one element</p>
+
+p.asd{outline: 10px dotted red;
+    	border: 5px solid blue;
+        outline-offset: -7px;
+        font-size: 72px;
+        font-family: "Futura";}
+        
+<p class="asd">Class is used to change more than one element.</p> */
+
+

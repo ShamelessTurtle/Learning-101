@@ -1,0 +1,32 @@
+<!doctyoe html>
+<html lang="en US">
+<head>
+    <title>Contact Us</title>
+
+    
+</head>
+<body>
+    <form action="/action_page.php" method="GET">           <!-- PHP script needed for form to actually do something. Or any kind of programming (ruby, python, ect). -->
+        Emri:<br/>
+        <input type="text" name="emri" value=""><br/>       <!-- type is what are you inputing (text, password, email, ect). -->
+        Mbiemri:<br/>                                       <!-- name is what youu want to call that variable if you need to call it again. Bo 2 can be alike! -->
+        <input type="text" name="mbiemri" value="">         <!-- value is if you want something to be pre-writen on the input box when it first loads. -->
+        <br/>
+        <textarea name="message" rows="10" cols="30"></textarea>    <!-- <textarea> behave like the <pre> tag if you type anything inside. -->
+        <br/><br/>
+        Send Email to:<br/>
+        <select name="departament">
+            <option value="tech">Mbeshtetje teknike</option>
+            <option value="sales">Shitjet</option>
+            <option value="accounting">Finance</option>
+            <option value="ceo">Drejtori</option>
+        </select>
+        <br/>
+        <input type="submit" value="Dergo">
+    </form>    
+
+    
+</body>
+    
+    
+</html>
