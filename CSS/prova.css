@@ -1,0 +1,82 @@
+p {
+    border: 3px solid #0563fc;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    background-color: #498fff;
+    color: #ced6e2;
+    box-shadow: 3px 3px #d3e4ff;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 100px;
+}
+p:hover {
+    border: 3px solid #0563fc;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    background-color: #0267ff;
+    color: #ced6e2;
+    box-shadow: 3px 3px #d3e4ff;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 100px;
+}
+
+a {color: #ced6e2;}
+a:hover{color: #ced6e2; font-style: bold; font-size: 20px}
+
+#borderimage {
+        border: 30px solid transparent;
+        width: 50%;
+        -webkit-border-image: url("/Images/border.png") 20% stretch;
+        -o-border-image: url("/Images/border.png") 20% stretch;
+        -moz-border-image: url("/Images/border.png") 20% stretch;
+       border-image: url("/Images/border.png") 20% stretch;
+       overflow-y: auto;
+        
+}
+
+p1{
+    background: -webkit-linear-gradient(#8ec1ff, #fcfa94);                       /* Good combo for a linear gradient*/
+    background: -moz-linear-gradient(#8ec1ff, #fcfa94);
+    background: -o-linear-gradient(#8ec1ff, #fcfa94);
+    background: linear-gradient(#8ec1ff, #fcfa94); 
+}
+/* Shadows 
+    box-shadow
+    text-shadow*/
+    
+img { /* opacity: %;    is used to make an image or something transparent */
+    border: 1px solid #cccccc;
+    box-shadow: 1px 1px 1px black, -1px -1px 1px black;
+    padding: 6px;
+    border-radius: 5px;
+}
+/* Buttons YAY!!!!!!!! */
+.button{
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: "Futura";
+    font-size: 24px;
+    padding: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.pagination{
+    display: inline-block;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+/* unit 'vw' can be added to text size instead of px to change the size of the text according to the viewport. 
+    vw - viewport width
+    1vw=1% of the viewport - viewport is the size of the browser; */
+

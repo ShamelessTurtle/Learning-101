@@ -1,0 +1,43 @@
+
+
+tr:nth-child(even) {
+    background-color: #fceb05;    
+}
+
+tr:nth-child(odd) {background-color: #b1fc05;}
+td:hover {background-color: white;}
+
+
+/* display property with a block value can change an element from inline to block. 
+    Position*/
+.static {
+    position: static;        /* static= default     these properties are used with a top,bottom left or right positioning, however static is not affected by the 4 directions.*/
+}
+.relative {
+    position: relative;      /* relative moves teh thing relative to the normal (which is static) in one of teh directions. Relative is often use with absolute */
+}
+.fixed {
+    position: fixed;         /* fixed - your fixing in a specific spot  for exanple top 20 right 0. no mater what happens it won't move even if you have a scroll bar. it's superimpossed on that location of the screen. */
+    top: 20px;
+    right: 0px;
+}
+.absolute {
+    position: absolute;      /* absolute move in relation to relative.  */
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.rb {
+    border: 3px solid orange;
+   padding: 20px;
+   width: 400px;
+   color: blue;
+   text-align: center;
+   text-decoration: overline;
+   font-family: "Futura"; 
+}
